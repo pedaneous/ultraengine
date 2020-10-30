@@ -3,7 +3,6 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
-@SuppressWarnings("serial")
 public class FireParticle extends Particle {
 	
 	Color c = new Color(255,165,0);

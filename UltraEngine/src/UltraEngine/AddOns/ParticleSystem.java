@@ -9,6 +9,7 @@ public class ParticleSystem {
 	ArrayList<Particle> particles = new ArrayList<Particle>();
 	
 	public void update() {
+		@SuppressWarnings("unchecked")
 		ArrayList<Particle> guh = (ArrayList<Particle>) particles.clone();
 		for(Particle p : guh) {
 			p.update();
@@ -16,6 +17,7 @@ public class ParticleSystem {
 	}
 	
 	public void draw(Graphics2D g) {
+		@SuppressWarnings("unchecked")
 		ArrayList<Particle> guh = (ArrayList<Particle>) particles.clone();
 		for(Particle p : guh) {
 			p.draw(g);
