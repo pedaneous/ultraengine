@@ -1,3 +1,6 @@
+package UltraEngine.AddOns;
+import java.awt.Point;
+
 class Tween {
 	
 	Point end;
